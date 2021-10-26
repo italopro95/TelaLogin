@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-weight: normal;
+    font-size: 100%;
+    font-family: verdana;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.login h1 {
+    color: #dfdede;
+    font-size: 1.5em;
+    margin: auto;
+}
+
+
+.principal {
+    width: 100%;
+    position: relative;
+}
+
+
+.login {
+    width: 40%;
+    height: 500px;
+    border: 1px solid #fffcfc4b;
+    box-shadow: 1px 1px 1px 0.5px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,10%);
+    padding: 30px 5px;
+    text-align: center;
+    border-radius: 30% 10px  30% 10px;
+}
+
+
+
+.login input {
+    width: 50%;
+    margin: 20px 0;
+    padding: 15px 10px;
+    background-color: initial;
+    margin: auto;
+    
+   
+}
+
+.login input[type="text"] {
+    margin-top: 40px;
+    margin-bottom: 15px;
+   
+}
+
+
+.login input[type="password"] {
+    margin-bottom: 15px;
+}
+
+p {
+    position: relative;
+}
+
+
+a {
+    margin: auto;
+    color: #000000;
+
+}
+
+.login input[type="submit"] {
+    margin-top: 70px;
+    background-color: #000000;
+    color: #dfdede;
+    cursor: pointer;
+    border-radius: 30px 0 30px 0 ;
+}
+
+
+
+
+input::placeholder {
+    color: #dfdede;
+}
+
+input[type="text"]:hover {
+    border-bottom: 1px solid #fffcfc;
+    transition: .7s;
+}
+
+input[type="password"]:hover {
+    border-bottom: 1px solid #fffcfc;
+    transition: .7s;
+}
+
+
+input[type="submit"]:hover {
+   background-color: #fffcfc;
+   color: #000000;
+   transition: .7s;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #8d8686 inset;
+  
+}
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+    -webkit-text-fill-color: #000000 !important;
+   
+}
+
+label {
+    display: block;
+}
+
+
+@media screen and (max-width: 1200px) {
+     
+     .login {
+         width: 80%;
+       
+     }
+
+     .login h1 {
+         text-align: center;
+         width: 60%;
+     }
+    
+}
+
+
+
+
