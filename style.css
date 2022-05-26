@@ -21,6 +21,8 @@ img {
     max-width: 100%;
 }
 
+/* AQUI VAI UMA IMAGEM DE FUNDO */
+
 body {
     height: 100%;
     background-image: url(img/fundo.jpg);
@@ -41,6 +43,7 @@ body {
     position: relative;
 }
 
+/* AQUI VAI AS CONFIGURAÇOES DA TELA DE LOGIN*/
 
 .login {
     width: 40%;
@@ -127,7 +130,8 @@ input:-webkit-autofill {
   
 }
 
-/* Cor do texto do autocomplete */
+/* COR DO TEXTO DO AUTO COMPLETE */
+
 input:-webkit-autofill {
     -webkit-text-fill-color: #000000 !important;
    
@@ -137,6 +141,7 @@ label {
     display: block;
 }
 
+/*  PARA TELAS DE ATÉ 1200PX  */
 
 @media screen and (max-width: 1200px) {
      
